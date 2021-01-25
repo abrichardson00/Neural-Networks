@@ -14,5 +14,5 @@ All these networks can trained with stochastic gradient descent and backpropogat
 
 This is just a work in progress, but there are a load of things with network structure that could be fun to investigate and play around with in the future. 
 One could generalize this further to allow feedback loops in the network, giving some weird RNNs? 
-One could allowcate some sort of location information to each neuron and only allow weights connecting neurons that are local / near by.
+One could allocate some sort of location information to each neuron and only allow weights connecting neurons that are local / near by.
 One could change the network structure with training (i.e. neural architecture search).
