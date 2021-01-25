@@ -1,7 +1,7 @@
 # Neural-Networks-with-Arbitrary-Structures
 I thought it would be interesting to play around with Neural Networks, but consider them as graphs which can have almost completely arbitrary structures. In doing so we can try out all sorts of different structres, allowing skip connections - in fact not dealing with any notion of 'layers' at all. There is still functionality for multilayer perceptron networks though.
 
-Currently a requirement of the networks is that they are directed graphs instead of cyclic graphs - i.e. we can't have any feedback loops. Apart from this, the connections between different neurons can essentially be randomized, and for a bit of fun we can plot these sorts of graphs in NN_tests.jl:
+Currently a requirement of the networks is that they are directed acyclic graphs instead of cyclic graphs - i.e. we can't have any feedback loops. Apart from this, the connections between different neurons can essentially be randomized, and for a bit of fun we can plot these sorts of graphs in NN_tests.jl:
 
 ![](testNet2.png)
 
